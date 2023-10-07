@@ -9,6 +9,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        // Interfaz formulario
+        setContentView(R.layout.formulario);
+        // Interfaz aceptacion
+        // setContentView(R.layout.aceptacion);
     }
 }
